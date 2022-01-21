@@ -1,0 +1,84 @@
+body {
+  background-color: #f6efef;
+}
+
+h1 {
+  font-family: "Caveat", cursive;
+  text-align: center;
+  color: rgb(41, 39, 39);
+}
+
+h5 {
+  text-align: center;
+  color: rgb(41, 39, 39);
+}
+
+p {
+  text-align: center;
+  font-family: "Caveat", cursive;
+}
+
+section {
+  padding: 30px;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #515152;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: rgb(194, 190, 190);
+}
+
+h2 {
+  font-family: "Bitter", serif;
+  font-size: 55px;
+  text-align: center;
+  padding-bottom: 5px;
+  color: #413232;
+}
+
+footer {
+  font-family: "Oooh Baby", cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+h5 {
+  color: #5a2727;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: #f1f1f1;
+  background: #5a2727;
+  padding: 10px 14px;
+  border-radius: 100%;
+  font-size: 25px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #f6efef;
+  background: #030303;
+}
+
+.snappedlogo {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
