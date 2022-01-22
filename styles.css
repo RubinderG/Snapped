@@ -61,11 +61,12 @@ h5 {
 }
 
 footer .social-links a {
+  display: block;
   margin: 0 20px;
   color: #f1f1f1;
   background: #5a2727;
   padding: 10px 14px;
-  border-radius: 100%;
+  border-radius: 50%;
   font-size: 25px;
   transition: all 100ms ease-in-out;
 }
