@@ -99,7 +99,7 @@ footer .social-links a:hover {
 }
 @media (max-width: 576px) {
   h2 {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 2;
   }
 
@@ -108,7 +108,7 @@ footer .social-links a:hover {
     text-align: center;
     list-style: none;
     line-height: 5px;
-    font-size: 8px;
+    font-size: 10px;
   }
 
   img {
@@ -117,7 +117,7 @@ footer .social-links a:hover {
   }
 
   footer {
-    font-size: 18px;
+    font-size: 8px;
   }
 
   footer .social-links a {
