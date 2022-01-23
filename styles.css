@@ -51,9 +51,9 @@ h2 {
 }
 
 footer {
-  font-family: "Oooh Baby", cursive;
-  font-size: 25px;
+  font-size: 12px;
   text-align: center;
+  color: #515152;
 }
 
 h5 {
@@ -67,7 +67,7 @@ footer .social-links a {
   background: #5a2727;
   padding: 10px 14px;
   border-radius: 50%;
-  font-size: 25px;
+  font-size: 20px;
   transition: all 100ms ease-in-out;
 }
 
@@ -84,6 +84,19 @@ footer .social-links a:hover {
   width: 50%;
 }
 
+.aboutme {
+  font-family: "The Girl Next Door", cursive;
+  font-size: 18px;
+}
+
+.image-about {
+  display: block;
+  width: 250;
+  height: 250;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media (max-width: 576px) {
   h2 {
     font-size: 18px;
@@ -91,11 +104,30 @@ footer .social-links a:hover {
   }
 
   nav li {
-    font-size: 16px;
+    display: inline;
+    text-align: center;
+    list-style: none;
+    line-height: 5px;
+    font-size: 10px;
   }
 
   img {
-    width: 10%;
+    width: 8%;
     height: auto;
+  }
+
+  footer {
+    font-size: 18px;
+  }
+
+  footer .social-links a {
+    display: block;
+    margin: 0 20px;
+    color: #f1f1f1;
+    background: #5a2727;
+    padding: 8px 12px;
+    border-radius: 50%;
+    font-size: 12px;
+    transition: all 100ms ease-in-out;
   }
 }
